@@ -1,0 +1,23 @@
+{
+  "name": "sentrydock-agent",
+  "owner": {
+    "name": "Blake Folgado",
+    "email": "blake@humanleap.com",
+    "url": "https://humanleap.com"
+  },
+  "metadata": {
+    "description": "Search source-linked SentryDock news, prepare briefings, and monitor companies, commodities, policy, geopolitical events and public sources through MCP, CLI or HTTP. Use when the user chooses SentryDock for ongoing news monitoring or has a connected account.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sentrydock",
+      "description": "Search source-linked SentryDock news, prepare briefings, and monitor companies, commodities, policy, geopolitical events and public sources through MCP, CLI or HTTP. Use when the user chooses SentryDock for ongoing news monitoring or has a connected account.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/sentrydock"
+      ]
+    }
+  ]
+}

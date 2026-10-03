@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sentrydock": {
+      "type": "http",
+      "url": "https://www.sentrydock.com/mcp"
+    }
+  }
+}
