@@ -38,3 +38,9 @@ Following the Postiz agent packaging pattern, the canonical root `SKILL.md` is m
 Company-wide discovery collection: https://github.com/Humanleap/agent-skills.
 
 License: MIT. Product service terms and pricing still apply.
+
+## Data handling
+
+The MCP service can read account information and store user-requested monitor topics, selected sources, results, usage and delivery settings. Saved task/result history persists until the user deletes it; this package does not assert a shorter retention period. See the service privacy policy: https://www.sentrydock.com/privacy.
+
+Optional delivery sends matched article titles, original source URLs and monitor details to the human-approved destination configured through SentryDock. An agent callback uses a user-owned or authorised public HTTPS webhook; other destinations use the service’s supported delivery channels. The package declares the SentryDock MCP endpoint, and has no hidden recipient, analytics script or independent background sender. The intended audience is adults monitoring professional or personal news topics.
